@@ -1,5 +1,5 @@
 declare module "redux-persist/es/persistStore" {
-  import { Store } from 'redux';
+  import { Store, Action, AnyAction } from 'redux';
   import { PersistorOptions, Persistor } from "redux-persist/es/types";
 
   /**
